@@ -65,7 +65,7 @@
         height: 5px;
         width: 100%;
         position: absolute;
-        bottom: -27px;
+        bottom: -44px;
     }
 
 </style>
