@@ -19,7 +19,7 @@
 </template>
 
 <style lang="scss">
-    @use '../styles/partials/mixing.scss';
-    @use '../styles/partials/variables.scss';
+    @use '../styles/partials/mixing.scss' as *;
+    @use '../styles/partials/variables.scss' as *;
 
 </style>
