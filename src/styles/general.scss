@@ -10,3 +10,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+    color: $textColor;
+
+    &:hover{
+        color: $dcColor;
+    }
+}
+
+li{
+    list-style: none;
+}
