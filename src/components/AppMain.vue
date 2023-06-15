@@ -47,11 +47,11 @@
     @use '../styles/partials/variables.scss' as *;
 
     .products{
-        height: 200px;
+        height: 170px;
         background-color: $bgMain;
     }
     .blubox{
-        height: 250px;
+        height: 200px;
         background-color: $bgDc;
     }
 

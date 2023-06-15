@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="page">
     <AppHeader/>
     <AppMain/>
     <AppFooter/>
@@ -22,6 +22,11 @@
 </template>
 
 <style lang="scss">
+  @use './styles/partials/mixing.scss' as *;
+  @use './styles/partials/variables.scss' as *;
   @import './styles/general.scss';
-
+  
+  body{
+    background-color: $bgColor;
+  }
 </style>

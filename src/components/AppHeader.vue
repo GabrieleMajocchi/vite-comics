@@ -63,7 +63,7 @@
         display: none;
         background-color: $bgDc;
         height: 5px;
-        width: 40px;
+        width: 100%;
         position: absolute;
         bottom: -27px;
     }
