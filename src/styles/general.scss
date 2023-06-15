@@ -1,0 +1,12 @@
+
+// ---Connect to mixing and variables---
+@use './partials/mixing.scss';
+@use './partials/variables.scss';
+
+// ---Reset---
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
