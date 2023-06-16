@@ -31,8 +31,8 @@ import NavLink from './NavLink.vue'
     <header class="d-flex">
         <div class="d-flex align-items-center m-auto justify-content-around my-3 w-75">
             <img src="../assets/img/dc-logo.png" alt="">
-            <ul v-for="link in links" class="m-auto">
-                <NavLink :link="link"/>
+            <ul class="m-auto d-flex">
+                <NavLink v-for="link in links" :link="link"/>
             </ul>
         </div>
     </header>
@@ -56,16 +56,5 @@ import NavLink from './NavLink.vue'
         font-size: 0.9rem;
         color: $textGrey;
     }
-    li:hover .blubox{
-            display: block;
-        }
-    .blubox{
-        display: none;
-        background-color: $bgDc;
-        height: 5px;
-        width: 100%;
-        position: absolute;
-        bottom: -44px;
-    }
-
+    
 </style>

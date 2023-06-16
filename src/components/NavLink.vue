@@ -12,6 +12,25 @@ export default {
     </li>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+    @use '../styles/partials/mixing.scss' as *;
+    @use '../styles/partials/variables.scss' as *;
+    
+    li{
+        margin-right: 1rem;
+    }
+    
+    li:hover .blubox{
+        display: block;
+    }
+
+    .blubox{
+        display: none;
+        background-color: $bgDc;
+        height: 5px;
+        width: 100%;
+        position: absolute;
+        bottom: -44px;
+    }
 
 </style>
