@@ -121,9 +121,13 @@ import SingleComics from './SingleComics.vue'
         top: -30px;
     }
     .current-series{
-        position: absolute;
+        position: absolute; 
         font-size: 1.5rem;
         top: -30px;
+    }
+
+    .load-more:hover{
+        color: $bgMain;
     }
     .blubox{
         height: 200px;
