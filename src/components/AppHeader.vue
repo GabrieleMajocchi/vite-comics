@@ -1,6 +1,10 @@
 <script>
+import NavLink from './NavLink.vue'
     export default {
         name: 'AppHeader',
+        components:{
+            NavLink,
+        },
         data() {
             return {
                 links: [
@@ -28,10 +32,7 @@
         <div class="d-flex align-items-center m-auto justify-content-around my-3 w-75">
             <img src="../assets/img/dc-logo.png" alt="">
             <ul v-for="link in links" class="m-auto">
-                <li class="position-relative">
-                    <a class="fw-bold" :href="link.ref">{{(link.name).toUpperCase()}}</a>
-                    <div class="blubox"></div>
-                </li>
+                <NavLink :link="link"/>
             </ul>
         </div>
     </header>
@@ -55,7 +56,6 @@
         font-size: 0.9rem;
         color: $textGrey;
     }
-
     li:hover .blubox{
             display: block;
         }
