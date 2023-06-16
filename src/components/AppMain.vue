@@ -3,8 +3,8 @@ import SingleComics from './SingleComics.vue'
     export default {
         name: 'AppMain',
         components: {
-    SingleComics,
-},
+            SingleComics,
+        },
         data() {
             return {
                 currentseries: [
